@@ -12,7 +12,7 @@ Here is a simplified description of the algorithm:
 2. A set of the XY-indices of each edge in the image are generated
 3. Two points were selected by randomly taking one point from each of two lists of edge indices. These two points became the start and end point of the line segment used to sample the image. 
 4. The start and end points were sorted to ensure they are in increasing X index order.
-5. The line segment angle, $\theta$, was calculated from tan⁡(($Y_n$-$Y_1$)/($X_n$-$X_1$)), where ($X_1$, $Y_1$) and ($X_n$, $Y_n$) are the starting and ending points on each line. 
+5. The line segment angle, $\theta$, was calculated from tan⁡(($Y_n$ - $Y_1$)/($X_n$ - $X_1$)), where ($X_1$, $Y_1$) and ($X_n$, $Y_n$) are the starting and ending points on each line. 
 6. A set of $X$ indices were generated at integer spacing between $X_1$ and $X_n$. 
 7. The $Y_i$ position at each integer $X_i$ location was calculated using $Y_i$ = $Y_1$ + $\theta$ ($X_i$ – $X_1$). Similarly, the $X_i$ position at each integer $Y_i$ position was calculated. 
 8. The two lists of $X_i$, $Y_i$ positions (at integer $X$ spacing and integer $Y$ spacing) were combined and sorted based on increasing X position. 
