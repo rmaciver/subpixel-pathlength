@@ -19,21 +19,15 @@ Here is a simplified description of the algorithm:
 9. The pixel values in the binary image (for example with pores=0 and substrate=1), were extracted for each integer $X_i$, $Y_i$ position in the list which allowed each line segment in the list to be assigned to the pore or substrate space. 
 10. The start and end position of consecutive sequences of 0’s and 1’s were extracted and used to calculate the length of the pores and substrate line segments along the line. 
 
+
+### Citation
 This algorithm was used in the following paper, kindly reference it if you use the code provided in this repo: 
 
-@article{ZHOU2024156200,
-title = {Quantitative assessment of the 3D pore space and microglobule clustering network to understand chromatographic transport phenomena in polymeric monolithic columns},
-journal = {Chemical Engineering Journal},
-volume = {499},
-pages = {156200},
-year = {2024},
-issn = {1385-8947},
-doi = {https://doi.org/10.1016/j.cej.2024.156200},
-url = {https://www.sciencedirect.com/science/article/pii/S1385894724076915},
-author = {Zhuoheng Zhou and Thomas Themelis and Tan Lu and Ryan MacIver and Benoit Stijlemans and Hanrong Wen and Bo Zhang and Gert Desmet and Sebastiaan Eeltink},
-keywords = {Serial-block-face SEM, Tomography, Stereological analysis, Liquid chromatography, Column characterization},
-abstract = {The 3D pore space and microglobule clustering network of polymer monolithic columns, which exhibited similar external porosity but significantly different chromatographic dispersion and permeability characteristics, were subjected to tomographic imaging followed by stereological analyses. The morphologies of the monolithic support structures were examined using serial-block-face scanning electron microscopy. The statistically computed characteristic chord-length, hydraulic radius and tortuosity of the pore are strongly associated to chromatographic transport processes, in particular, eddy dispersion and mass-transfer resistance contributing to chromatographic dispersion, and permeability of monolithic columns. Moreover, Giddings’ trans-column velocity bias has been quantified in monoliths for the first time. With demonstrated method robustness, the proposed morphological descriptors and the streamlined analysis workflow provide novel insights bridging the structure-performance relationship for future chromatography column design.}
-}
+Zhou, Z., Themelis, T., Lu, T., MacIver, R., Stijlemans, B., Wen, H., Zhang, B., Desmet, G., & Eeltink, S. (2024). *Quantitative assessment of the 3D pore space and microglobule clustering network to understand chromatographic transport phenomena in polymeric monolithic columns*. *Chemical Engineering Journal*, 499, 156200. https://doi.org/10.1016/j.cej.2024.156200
 
+**Keywords**: Serial-block-face SEM, Tomography, Stereological analysis, Liquid chromatography, Column characterization
+
+**Abstract**:  
+The 3D pore space and microglobule clustering network of polymer monolithic columns, which exhibited similar external porosity but significantly different chromatographic dispersion and permeability characteristics, were subjected to tomographic imaging followed by stereological analyses. The morphologies of the monolithic support structures were examined using serial-block-face scanning electron microscopy. The statistically computed characteristic chord-length, hydraulic radius, and tortuosity of the pore are strongly associated with chromatographic transport processes, in particular, eddy dispersion and mass-transfer resistance contributing to chromatographic dispersion, and permeability of monolithic columns. Moreover, Giddings’ trans-column velocity bias has been quantified in monoliths for the first time. With demonstrated method robustness, the proposed morphological descriptors and the streamlined analysis workflow provide novel insights bridging the structure-performance relationship for future chromatography column design.
 
 
